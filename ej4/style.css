@@ -1,0 +1,108 @@
+* {
+  font-family: sans-serif;
+}
+
+.header {
+  height: 50px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.main {
+  width: 80%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
+
+.p {
+  margin: 20px;
+}
+
+.lista {
+  list-style: circle;
+  width: 60%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+li {
+  margin: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: help;
+}
+
+.lista li > span {
+  position: relative;
+  display: none;
+}
+
+.lista li:hover > .tooltip {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  display: block;
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  color: teal;
+  padding: 6px;
+  border: 1px dotted teal;
+  font-weight: normal;
+}
+
+.titulo {
+  font-weight: bold;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.aside {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  background-color: bisque;
+  border: 1px solid brown;
+}
+
+.footer {
+  height: 50px;
+  background-color: lightblue;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.rrss-item {
+  display: inline-block;
+  margin: 0;
+}
+
+.company {
+  display: inline-block;
+  padding: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: teal;
+}
+
+.nav {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}

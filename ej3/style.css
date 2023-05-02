@@ -4,11 +4,11 @@
   /* Sustituye el valor por 0.5 */
   --transparencia: 0.8;
 }
-#contenedor {
-  /* Cambia la perspectiva por "none", "1000px", "100px"... */
-  /* perspective: 550px; */
-  /* transform: rotateY(30deg); */
-}
+/* #contenedor {
+  Cambia la perspectiva por "none", "1000px", "100px"...
+  perspective: 550px;
+  transform: rotateY(30deg);
+} */
 .cara {
   position: absolute;
   top: 150px;
